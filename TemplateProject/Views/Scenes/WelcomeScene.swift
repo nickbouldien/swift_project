@@ -13,14 +13,13 @@ class WelcomeScene: UIViewController {
     var sceneState: WelcomeSceneState = WelcomeSceneState();
     var instructionsLabel: UILabel = UILabel();
     
-    var circleControl: CircleControl = CircleControl();
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        circleControl.backgroundColor = UIColor.clear
-        circleControl.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-        view.addSubview(circleControl);
+//        circleControl.backgroundColor = UIColor.clear
+//        circleControl.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+//        view.addSubview(circleControl);
         
         instructionsLabel.frame = CGRect(x: 15, y: 15, width: 300, height: 50)
         instructionsLabel.text = "Insert Instructions Here"
@@ -32,10 +31,10 @@ class WelcomeScene: UIViewController {
             view.backgroundColor = UIColor.yellow
         }
         
-        let myPanRecognizier = UIPanGestureRecognizer(target: self, action: #selector(WelcomeScene.pan))
-        circleControl.addGestureRecognizer(myPanRecognizier)
-    }
-    
+//        let myPanRecognizier = UIPanGestureRecognizer(target: self, action: #selector(WelcomeScene.pan))
+//        circleControl.addGestureRecognizer(myPanRecognizier)
+//    }
+//    
     func pan(gestureRecognizier: UIPanGestureRecognizer)
     {
         print("Draggable!!!")
@@ -48,13 +47,13 @@ class WelcomeScene: UIViewController {
         }
     }
     
-    override func didReceiveMemoryWarning() {
+    func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     // Let's override the function that is called when a user taps the screen.
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if(sceneState.getState() == .InitialState)
         {
             sceneState.changeState(state: .AskingForName)
@@ -98,4 +97,4 @@ class WelcomeScene: UIViewController {
     
     
 }
-
+}

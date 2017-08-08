@@ -7,6 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0147CAC81F39490A009BB996 /* RegisterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147CAC71F39490A009BB996 /* RegisterScene.swift */; };
+		0147CAF51F394BF1009BB996 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAC91F394BF1009BB996 /* 1.png */; };
+		0147CAF61F394BF1009BB996 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CACA1F394BF1009BB996 /* 2.png */; };
+		0147CAF71F394BF1009BB996 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CACB1F394BF1009BB996 /* 3.png */; };
+		0147CAF81F394BF1009BB996 /* Accept-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CACC1F394BF1009BB996 /* Accept-button.png */; };
+		0147CAF91F394BF1009BB996 /* alpha-lowercase-keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CACD1F394BF1009BB996 /* alpha-lowercase-keyboard.png */; };
+		0147CAFA1F394BF1009BB996 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CACE1F394BF1009BB996 /* Background.png */; };
+		0147CAFB1F394BF1009BB996 /* bubble-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CACF1F394BF1009BB996 /* bubble-1.png */; };
+		0147CAFC1F394BF1009BB996 /* bubble-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD01F394BF1009BB996 /* bubble-2.png */; };
+		0147CAFD1F394BF1009BB996 /* bubble-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD11F394BF1009BB996 /* bubble-bg.png */; };
+		0147CAFE1F394BF1009BB996 /* bubble-bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD21F394BF1009BB996 /* bubble-bg2.png */; };
+		0147CAFF1F394BF1009BB996 /* Camera-img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD31F394BF1009BB996 /* Camera-img1.png */; };
+		0147CB001F394BF1009BB996 /* Camera-img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD41F394BF1009BB996 /* Camera-img2.png */; };
+		0147CB011F394BF1009BB996 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD51F394BF1009BB996 /* camera.png */; };
+		0147CB021F394BF1009BB996 /* Cancel-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD61F394BF1009BB996 /* Cancel-button.png */; };
+		0147CB031F394BF1009BB996 /* Cancel-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD71F394BF1009BB996 /* Cancel-icon.png */; };
+		0147CB041F394BF1009BB996 /* Chat-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD81F394BF1009BB996 /* Chat-1.png */; };
+		0147CB051F394BF1009BB996 /* Combined Shape-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAD91F394BF1009BB996 /* Combined Shape-lg.png */; };
+		0147CB061F394BF1009BB996 /* Combined Shape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CADA1F394BF1009BB996 /* Combined Shape.png */; };
+		0147CB071F394BF1009BB996 /* count-down-button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CADB1F394BF1009BB996 /* count-down-button-bg.png */; };
+		0147CB081F394BF1009BB996 /* CountDown-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CADC1F394BF1009BB996 /* CountDown-button.png */; };
+		0147CB091F394BF1009BB996 /* Get-start-button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CADD1F394BF1009BB996 /* Get-start-button-bg.png */; };
+		0147CB0A1F394BF1009BB996 /* Get-start-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CADE1F394BF1009BB996 /* Get-start-button.png */; };
+		0147CB0B1F394BF1009BB996 /* How-It-work-button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CADF1F394BF1009BB996 /* How-It-work-button-bg.png */; };
+		0147CB0C1F394BF1009BB996 /* How-It-work-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE01F394BF1009BB996 /* How-It-work-button.png */; };
+		0147CB0D1F394BF1009BB996 /* info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE11F394BF1009BB996 /* info-icon.png */; };
+		0147CB0E1F394BF1009BB996 /* Input-fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE21F394BF1009BB996 /* Input-fill.png */; };
+		0147CB0F1F394BF1009BB996 /* Menue-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE31F394BF1009BB996 /* Menue-icon.png */; };
+		0147CB101F394BF1009BB996 /* message bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE41F394BF1009BB996 /* message bar.png */; };
+		0147CB111F394BF1009BB996 /* Next-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE51F394BF1009BB996 /* Next-icon.png */; };
+		0147CB121F394BF1009BB996 /* person-photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE61F394BF1009BB996 /* person-photo1.png */; };
+		0147CB131F394BF1009BB996 /* person-photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE71F394BF1009BB996 /* person-photo2.png */; };
+		0147CB141F394BF1009BB996 /* PhoneNumber-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE81F394BF1009BB996 /* PhoneNumber-text.png */; };
+		0147CB151F394BF1009BB996 /* Previous-icon-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAE91F394BF1009BB996 /* Previous-icon-active.png */; };
+		0147CB161F394BF1009BB996 /* Previous-icon-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAEA1F394BF1009BB996 /* Previous-icon-inactive.png */; };
+		0147CB171F394BF1009BB996 /* Profile-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAEB1F394BF1009BB996 /* Profile-icon.png */; };
+		0147CB181F394BF1009BB996 /* Profile-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAEC1F394BF1009BB996 /* Profile-icon2.png */; };
+		0147CB191F394BF1009BB996 /* Send-Message-button-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAED1F394BF1009BB996 /* Send-Message-button-icon.png */; };
+		0147CB1A1F394BF1009BB996 /* Send-Message-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAEE1F394BF1009BB996 /* Send-Message-button.png */; };
+		0147CB1B1F394BF1009BB996 /* tip-icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAEF1F394BF1009BB996 /* tip-icon-2.png */; };
+		0147CB1C1F394BF1009BB996 /* tip-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAF01F394BF1009BB996 /* tip-icon.png */; };
+		0147CB1D1F394BF1009BB996 /* Tutorial-img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAF11F394BF1009BB996 /* Tutorial-img1.png */; };
+		0147CB1E1F394BF1009BB996 /* Tutorial-img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAF21F394BF1009BB996 /* Tutorial-img2.png */; };
+		0147CB1F1F394BF1009BB996 /* UnderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAF31F394BF1009BB996 /* UnderLine.png */; };
+		0147CB201F394BF1009BB996 /* view-chat-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0147CAF41F394BF1009BB996 /* view-chat-bg.png */; };
 		01E6B5CA1F32B14F00FA0C20 /* MessageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6B5C91F32B14F00FA0C20 /* MessageTableView.swift */; };
 		01E6B5CC1F32B2D700FA0C20 /* ChatScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6B5CB1F32B2D700FA0C20 /* ChatScene.swift */; };
 		01FEF3F91F300E880080DB39 /* LocationDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FEF3F81F300E880080DB39 /* LocationDetectorView.swift */; };
@@ -30,6 +75,51 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0147CAC71F39490A009BB996 /* RegisterScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScene.swift; sourceTree = "<group>"; };
+		0147CAC91F394BF1009BB996 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0147CACA1F394BF1009BB996 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		0147CACB1F394BF1009BB996 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		0147CACC1F394BF1009BB996 /* Accept-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Accept-button.png"; sourceTree = "<group>"; };
+		0147CACD1F394BF1009BB996 /* alpha-lowercase-keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha-lowercase-keyboard.png"; sourceTree = "<group>"; };
+		0147CACE1F394BF1009BB996 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		0147CACF1F394BF1009BB996 /* bubble-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-1.png"; sourceTree = "<group>"; };
+		0147CAD01F394BF1009BB996 /* bubble-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-2.png"; sourceTree = "<group>"; };
+		0147CAD11F394BF1009BB996 /* bubble-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-bg.png"; sourceTree = "<group>"; };
+		0147CAD21F394BF1009BB996 /* bubble-bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-bg2.png"; sourceTree = "<group>"; };
+		0147CAD31F394BF1009BB996 /* Camera-img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera-img1.png"; sourceTree = "<group>"; };
+		0147CAD41F394BF1009BB996 /* Camera-img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera-img2.png"; sourceTree = "<group>"; };
+		0147CAD51F394BF1009BB996 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0147CAD61F394BF1009BB996 /* Cancel-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel-button.png"; sourceTree = "<group>"; };
+		0147CAD71F394BF1009BB996 /* Cancel-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel-icon.png"; sourceTree = "<group>"; };
+		0147CAD81F394BF1009BB996 /* Chat-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chat-1.png"; sourceTree = "<group>"; };
+		0147CAD91F394BF1009BB996 /* Combined Shape-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combined Shape-lg.png"; sourceTree = "<group>"; };
+		0147CADA1F394BF1009BB996 /* Combined Shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combined Shape.png"; sourceTree = "<group>"; };
+		0147CADB1F394BF1009BB996 /* count-down-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "count-down-button-bg.png"; sourceTree = "<group>"; };
+		0147CADC1F394BF1009BB996 /* CountDown-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CountDown-button.png"; sourceTree = "<group>"; };
+		0147CADD1F394BF1009BB996 /* Get-start-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Get-start-button-bg.png"; sourceTree = "<group>"; };
+		0147CADE1F394BF1009BB996 /* Get-start-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Get-start-button.png"; sourceTree = "<group>"; };
+		0147CADF1F394BF1009BB996 /* How-It-work-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "How-It-work-button-bg.png"; sourceTree = "<group>"; };
+		0147CAE01F394BF1009BB996 /* How-It-work-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "How-It-work-button.png"; sourceTree = "<group>"; };
+		0147CAE11F394BF1009BB996 /* info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-icon.png"; sourceTree = "<group>"; };
+		0147CAE21F394BF1009BB996 /* Input-fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Input-fill.png"; sourceTree = "<group>"; };
+		0147CAE31F394BF1009BB996 /* Menue-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menue-icon.png"; sourceTree = "<group>"; };
+		0147CAE41F394BF1009BB996 /* message bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message bar.png"; sourceTree = "<group>"; };
+		0147CAE51F394BF1009BB996 /* Next-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Next-icon.png"; sourceTree = "<group>"; };
+		0147CAE61F394BF1009BB996 /* person-photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-photo1.png"; sourceTree = "<group>"; };
+		0147CAE71F394BF1009BB996 /* person-photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "person-photo2.png"; sourceTree = "<group>"; };
+		0147CAE81F394BF1009BB996 /* PhoneNumber-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhoneNumber-text.png"; sourceTree = "<group>"; };
+		0147CAE91F394BF1009BB996 /* Previous-icon-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Previous-icon-active.png"; sourceTree = "<group>"; };
+		0147CAEA1F394BF1009BB996 /* Previous-icon-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Previous-icon-inactive.png"; sourceTree = "<group>"; };
+		0147CAEB1F394BF1009BB996 /* Profile-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-icon.png"; sourceTree = "<group>"; };
+		0147CAEC1F394BF1009BB996 /* Profile-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-icon2.png"; sourceTree = "<group>"; };
+		0147CAED1F394BF1009BB996 /* Send-Message-button-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Send-Message-button-icon.png"; sourceTree = "<group>"; };
+		0147CAEE1F394BF1009BB996 /* Send-Message-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Send-Message-button.png"; sourceTree = "<group>"; };
+		0147CAEF1F394BF1009BB996 /* tip-icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-icon-2.png"; sourceTree = "<group>"; };
+		0147CAF01F394BF1009BB996 /* tip-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-icon.png"; sourceTree = "<group>"; };
+		0147CAF11F394BF1009BB996 /* Tutorial-img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tutorial-img1.png"; sourceTree = "<group>"; };
+		0147CAF21F394BF1009BB996 /* Tutorial-img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tutorial-img2.png"; sourceTree = "<group>"; };
+		0147CAF31F394BF1009BB996 /* UnderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnderLine.png; sourceTree = "<group>"; };
+		0147CAF41F394BF1009BB996 /* view-chat-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-chat-bg.png"; sourceTree = "<group>"; };
 		01E6B5C91F32B14F00FA0C20 /* MessageTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableView.swift; sourceTree = "<group>"; };
 		01E6B5CB1F32B2D700FA0C20 /* ChatScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScene.swift; sourceTree = "<group>"; };
 		01FEF3F81F300E880080DB39 /* LocationDetectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetectorView.swift; sourceTree = "<group>"; };
@@ -152,6 +242,50 @@
 		8EFAF1E11F276D7400E07232 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0147CAC91F394BF1009BB996 /* 1.png */,
+				0147CACA1F394BF1009BB996 /* 2.png */,
+				0147CACB1F394BF1009BB996 /* 3.png */,
+				0147CACC1F394BF1009BB996 /* Accept-button.png */,
+				0147CACD1F394BF1009BB996 /* alpha-lowercase-keyboard.png */,
+				0147CACE1F394BF1009BB996 /* Background.png */,
+				0147CACF1F394BF1009BB996 /* bubble-1.png */,
+				0147CAD01F394BF1009BB996 /* bubble-2.png */,
+				0147CAD11F394BF1009BB996 /* bubble-bg.png */,
+				0147CAD21F394BF1009BB996 /* bubble-bg2.png */,
+				0147CAD31F394BF1009BB996 /* Camera-img1.png */,
+				0147CAD41F394BF1009BB996 /* Camera-img2.png */,
+				0147CAD51F394BF1009BB996 /* camera.png */,
+				0147CAD61F394BF1009BB996 /* Cancel-button.png */,
+				0147CAD71F394BF1009BB996 /* Cancel-icon.png */,
+				0147CAD81F394BF1009BB996 /* Chat-1.png */,
+				0147CAD91F394BF1009BB996 /* Combined Shape-lg.png */,
+				0147CADA1F394BF1009BB996 /* Combined Shape.png */,
+				0147CADB1F394BF1009BB996 /* count-down-button-bg.png */,
+				0147CADC1F394BF1009BB996 /* CountDown-button.png */,
+				0147CADD1F394BF1009BB996 /* Get-start-button-bg.png */,
+				0147CADE1F394BF1009BB996 /* Get-start-button.png */,
+				0147CADF1F394BF1009BB996 /* How-It-work-button-bg.png */,
+				0147CAE01F394BF1009BB996 /* How-It-work-button.png */,
+				0147CAE11F394BF1009BB996 /* info-icon.png */,
+				0147CAE21F394BF1009BB996 /* Input-fill.png */,
+				0147CAE31F394BF1009BB996 /* Menue-icon.png */,
+				0147CAE41F394BF1009BB996 /* message bar.png */,
+				0147CAE51F394BF1009BB996 /* Next-icon.png */,
+				0147CAE61F394BF1009BB996 /* person-photo1.png */,
+				0147CAE71F394BF1009BB996 /* person-photo2.png */,
+				0147CAE81F394BF1009BB996 /* PhoneNumber-text.png */,
+				0147CAE91F394BF1009BB996 /* Previous-icon-active.png */,
+				0147CAEA1F394BF1009BB996 /* Previous-icon-inactive.png */,
+				0147CAEB1F394BF1009BB996 /* Profile-icon.png */,
+				0147CAEC1F394BF1009BB996 /* Profile-icon2.png */,
+				0147CAED1F394BF1009BB996 /* Send-Message-button-icon.png */,
+				0147CAEE1F394BF1009BB996 /* Send-Message-button.png */,
+				0147CAEF1F394BF1009BB996 /* tip-icon-2.png */,
+				0147CAF01F394BF1009BB996 /* tip-icon.png */,
+				0147CAF11F394BF1009BB996 /* Tutorial-img1.png */,
+				0147CAF21F394BF1009BB996 /* Tutorial-img2.png */,
+				0147CAF31F394BF1009BB996 /* UnderLine.png */,
+				0147CAF41F394BF1009BB996 /* view-chat-bg.png */,
 				01FEF3FC1F3015D70080DB39 /* face_360.png */,
 			);
 			path = Images;
@@ -185,6 +319,7 @@
 				8EFAF1F41F276EC800E07232 /* WelcomeScene.swift */,
 				8EFAF1F61F276EEA00E07232 /* ChatRoomScene.swift */,
 				01E6B5CB1F32B2D700FA0C20 /* ChatScene.swift */,
+				0147CAC71F39490A009BB996 /* RegisterScene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -257,9 +392,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0147CAFF1F394BF1009BB996 /* Camera-img1.png in Resources */,
+				0147CAF81F394BF1009BB996 /* Accept-button.png in Resources */,
+				0147CAFE1F394BF1009BB996 /* bubble-bg2.png in Resources */,
+				0147CAFB1F394BF1009BB996 /* bubble-1.png in Resources */,
+				0147CB071F394BF1009BB996 /* count-down-button-bg.png in Resources */,
+				0147CB0F1F394BF1009BB996 /* Menue-icon.png in Resources */,
 				8EFAF1D51F276CC600E07232 /* LaunchScreen.storyboard in Resources */,
+				0147CB1D1F394BF1009BB996 /* Tutorial-img1.png in Resources */,
+				0147CB151F394BF1009BB996 /* Previous-icon-active.png in Resources */,
+				0147CAF51F394BF1009BB996 /* 1.png in Resources */,
+				0147CB051F394BF1009BB996 /* Combined Shape-lg.png in Resources */,
+				0147CB021F394BF1009BB996 /* Cancel-button.png in Resources */,
+				0147CB0E1F394BF1009BB996 /* Input-fill.png in Resources */,
+				0147CB011F394BF1009BB996 /* camera.png in Resources */,
+				0147CB141F394BF1009BB996 /* PhoneNumber-text.png in Resources */,
+				0147CAF61F394BF1009BB996 /* 2.png in Resources */,
+				0147CB0B1F394BF1009BB996 /* How-It-work-button-bg.png in Resources */,
+				0147CB131F394BF1009BB996 /* person-photo2.png in Resources */,
+				0147CAF71F394BF1009BB996 /* 3.png in Resources */,
+				0147CB201F394BF1009BB996 /* view-chat-bg.png in Resources */,
+				0147CB1A1F394BF1009BB996 /* Send-Message-button.png in Resources */,
+				0147CB1B1F394BF1009BB996 /* tip-icon-2.png in Resources */,
+				0147CAFD1F394BF1009BB996 /* bubble-bg.png in Resources */,
+				0147CB0D1F394BF1009BB996 /* info-icon.png in Resources */,
+				0147CB1C1F394BF1009BB996 /* tip-icon.png in Resources */,
+				0147CB0A1F394BF1009BB996 /* Get-start-button.png in Resources */,
+				0147CB001F394BF1009BB996 /* Camera-img2.png in Resources */,
+				0147CB081F394BF1009BB996 /* CountDown-button.png in Resources */,
+				0147CB0C1F394BF1009BB996 /* How-It-work-button.png in Resources */,
+				0147CB111F394BF1009BB996 /* Next-icon.png in Resources */,
+				0147CAF91F394BF1009BB996 /* alpha-lowercase-keyboard.png in Resources */,
+				0147CB171F394BF1009BB996 /* Profile-icon.png in Resources */,
+				0147CAFA1F394BF1009BB996 /* Background.png in Resources */,
+				0147CB161F394BF1009BB996 /* Previous-icon-inactive.png in Resources */,
+				0147CB031F394BF1009BB996 /* Cancel-icon.png in Resources */,
+				0147CB181F394BF1009BB996 /* Profile-icon2.png in Resources */,
+				0147CB101F394BF1009BB996 /* message bar.png in Resources */,
+				0147CB061F394BF1009BB996 /* Combined Shape.png in Resources */,
+				0147CB1E1F394BF1009BB996 /* Tutorial-img2.png in Resources */,
+				0147CAFC1F394BF1009BB996 /* bubble-2.png in Resources */,
+				0147CB191F394BF1009BB996 /* Send-Message-button-icon.png in Resources */,
+				0147CB091F394BF1009BB996 /* Get-start-button-bg.png in Resources */,
+				0147CB041F394BF1009BB996 /* Chat-1.png in Resources */,
+				0147CB1F1F394BF1009BB996 /* UnderLine.png in Resources */,
 				8EFAF1D21F276CC600E07232 /* Assets.xcassets in Resources */,
 				01FEF3FD1F3015D70080DB39 /* face_360.png in Resources */,
+				0147CB121F394BF1009BB996 /* person-photo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +454,7 @@
 				8EFAF1F91F276EF600E07232 /* Settings.swift in Sources */,
 				8EFAF1E51F276D8D00E07232 /* NetworkController.swift in Sources */,
 				01FEF3F91F300E880080DB39 /* LocationDetectorView.swift in Sources */,
+				0147CAC81F39490A009BB996 /* RegisterScene.swift in Sources */,
 				8EFAF1D01F276CC600E07232 /* TemplateProject.xcdatamodeld in Sources */,
 				8EFAF1F71F276EEA00E07232 /* ChatRoomScene.swift in Sources */,
 				8EFAF1F31F276EB200E07232 /* LoginScene.swift in Sources */,

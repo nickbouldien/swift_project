@@ -10,9 +10,8 @@ import UIKit
 
 class LocationDirectorView : UIViewController {
     
-    var circle = CircleControl()
-    var circleWidth: CGFloat = 50
-    var circleHeight: CGFloat = 50
+//    var circleWidth: CGFloat = 50
+//    var circleHeight: CGFloat = 50
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,32 +29,32 @@ class LocationDirectorView : UIViewController {
         theImage.frame.origin.x = ((self.view.bounds.size.width  - theImage.frame.size.width) / 2.0)
 
         
-        circle.frame = CGRect(x: ((self.view.bounds.size.width/2.0 - circleWidth/2.0)), y: ((self.view.bounds.size.height/2.0 - circleHeight/2.0)), width: circleWidth, height: circleHeight)
+//        circle.frame = CGRect(x: ((self.view.bounds.size.width/2.0 - circleWidth/2.0)), y: ((self.view.bounds.size.height/2.0 - circleHeight/2.0)), width: circleWidth, height: circleHeight)
+//
+//        view.addSubview(circle)
 
-        view.addSubview(circle)
-
-        animateIn()
-        animateOut()
+//        animateIn()
+//        animateOut()
 
     }
     
-    func animateIn() {
-        UIView.animate(withDuration: 0.5, delay: 0.4,
-                       options: .curveEaseOut, animations: {
-                        self.circle.frame = CGRect(x: ((self.view.bounds.size.width/2.0 - self.circleWidth)), y: ((self.view.bounds.size.height/2.0 - self.circleHeight)), width: self.circleWidth*4, height: self.circleHeight*4)
-                        self.circle.alpha = 0.1
-                        
-        }, completion: {_ in self.animateOut()})
-    }
-
-    func animateOut() {
-        UIView.animate(withDuration: 1.2, delay: 1.0,
-                       options: .curveEaseOut, animations: {
-                        self.circle.frame = CGRect(x: ((self.view.bounds.size.width/2.0 - self.circleWidth)), y: ((self.view.bounds.size.height/2.0 - self.circleHeight)), width: self.circleWidth*2, height: self.circleHeight*2)
-                        self.circle.alpha = 0.9
-                        
-        }, completion: {_ in self.animateIn()})
-    }
+//    func animateIn() {
+//        UIView.animate(withDuration: 0.5, delay: 0.4,
+//                       options: .curveEaseOut, animations: {
+//                        self.circle.frame = CGRect(x: ((self.view.bounds.size.width/2.0 - self.circleWidth)), y: ((self.view.bounds.size.height/2.0 - self.circleHeight)), width: self.circleWidth*4, height: self.circleHeight*4)
+//                        self.circle.alpha = 0.1
+//                        
+//        }, completion: {_ in self.animateOut()})
+//    }
+//
+//    func animateOut() {
+//        UIView.animate(withDuration: 1.2, delay: 1.0,
+//                       options: .curveEaseOut, animations: {
+//                        self.circle.frame = CGRect(x: ((self.view.bounds.size.width/2.0 - self.circleWidth)), y: ((self.view.bounds.size.height/2.0 - self.circleHeight)), width: self.circleWidth*2, height: self.circleHeight*2)
+//                        self.circle.alpha = 0.9
+//                        
+//        }, completion: {_ in self.animateIn()})
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

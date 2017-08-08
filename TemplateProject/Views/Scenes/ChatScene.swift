@@ -8,10 +8,9 @@
 
 import UIKit
 
-class ChatScene : UIController, MessageTableViewProtocol, CicleControlProtocol  {
+class ChatScene : UIController, MessageTableViewProtocol {
     
     var messageTableView = MessageTableView()
-    var circleControl = CircleControl()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +18,7 @@ class ChatScene : UIController, MessageTableViewProtocol, CicleControlProtocol  
         messageTableView.delegate      =   messageTableView
         messageTableView.dataSource    =   messageTableView
         messageTableView.myDelegate    =   self
-        circleControl.circleDelegate   =   self
+//        circleControl.circleDelegate   =   self
 
         
         
@@ -42,9 +41,9 @@ class ChatScene : UIController, MessageTableViewProtocol, CicleControlProtocol  
         print(characterName);
     }
     
-    func changeCircleSize() {
-        print("being touched")
-    }
+//    func changeCircleSize() {
+//        print("being touched")
+//    }
     
     
     
